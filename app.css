@@ -227,9 +227,42 @@ margin-right: 20px;
     align-items: center;
 }
 
-.related-links a {
-    background-color: #F7F7F7;
+.cover {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, .1);
+    border-radius: 5px;
 }
+
+
+.related-links a {
+    position: relative;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 10px;
+    text-decoration: none;
+    
+}
+
+.link-wrapper {
+    height: 100px;
+    width: 100px;
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.related-links a p {
+    margin: 5px 0 0 0;
+   justify-self: flex-end;
+}
+
 
 .see-more {
     display: flex;
@@ -268,7 +301,7 @@ margin-right: 20px;
     width: 100%;
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: 25% 25% 25% 25% ;
+    grid-template-rows: repeat(4 1fr) ;
     column-gap: 1.5em;
     row-gap: .5em;
 }
@@ -287,4 +320,82 @@ margin-right: 20px;
 
 .grid-item i {
     margin: 0 25px 0 25px;
+}
+
+#navigation {
+    width: 610px;
+    margin-left: 175px;
+}
+.google-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    font-size: 2em;
+}
+
+.google-container div {
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.google-container div i {
+    font-size: .5em;
+    height: 42px;
+    display: flex;
+    align-items: center;
+}
+
+.google-container div:last-child {
+    margin-left: 10px;
+}
+
+.google-container span {
+    font-size: 1.1em;
+    color: #FBBC05;
+}
+
+#num {
+    font-size: .5em;
+    color: blue;
+}
+
+footer {
+    margin-top: 20px;
+    display: flex;
+    width: 100%;
+    background-color: rgba(0, 0, 0, .1);
+}
+
+.footer-content {
+    display: flex;
+    flex-wrap: wrap;
+    width: 565px;
+    margin-left: 175px;
+    font-size: .85em;
+}
+.footer-content-top {
+    display: flex;
+    justify-content: flex-start
+}
+
+.footer-content a {
+    text-decoration: none;
+}
+
+.footer-content p {
+margin-top: 3px;
+margin-bottom: 10px;
+}
+
+.footer-content-bottom {
+    display: flex;
+    width: 100%;
+    justify-content: flex-start;
+}
+
+.footer-content-bottom a {
+    margin-right: 20px;
 }
