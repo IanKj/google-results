@@ -1,2 +1,2 @@
 3/26/21
-This is the second, difficult, part of the first assignment for HTML/CSS in the Odin Project. I don't think it will be too bad at all once I figure out how to structure the results. I've already done the header so I can just copy that. And there is no footer to implement. Search bar goes in the header. And there is no responsivity for whatever reason....
+This is the second, difficult, part of the first assignment for HTML/CSS in the Odin Project. Not mobile friendly at all. Need to work on that next.
